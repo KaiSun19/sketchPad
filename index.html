@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script src="script.js" defer></script>
+
+<html>
+<body>
+    <div id = "title">
+        <b>Etch-a-Sketch</b>
+    </div>
+
+    <main class = "main">
+        <div id = "settings">
+            <div id = "sliderDiv">
+                <b><p>Select Grid Size</p></b>
+                <input type="range" id = "sliderValue" class = "slider" name = "slider" min="1" max="100" value="50" >
+                <output id = "output">50</output>
+            </div>
+            <p style = "font-family: 'Urbanist', sans-serif;"><b>Do you want random colors?</b></p>
+            <div class = "colorSetting">
+                <div class = "switch-body">
+                    <div class = "toggle">
+
+                    </div>
+                </div>
+                <label for=""> </label>
+                <input type = "checkbox" name = "colors">
+            </div>
+        </div>
+        <div id = "grid">
+
+        </div>
+    </main>
+</body>
+</html>
